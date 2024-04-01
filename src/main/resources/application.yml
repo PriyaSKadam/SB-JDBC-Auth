@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: 18-JDBC-Authentication
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password:  
+    url: jdbc:mysql://localhost:3306/sbms
+    username: root
+  jpa:
+    show-sql: true
